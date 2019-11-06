@@ -1,13 +1,7 @@
-header{
-	padding: 0px;
-	background: blue;
-	color: white;
-}
-
 .bovensteHeader{
 	padding: 80px;
 	text-align: center;
-	background: blue;
+	background: lightblue;
 	color: white;
 }
 
@@ -28,3 +22,54 @@ nav li {
 	margin: 20px;
 	list-style-type: none;
 }
+
+#mainContent header{
+	text-align: center;
+}
+
+#mainContent article {
+	max-width: 50%;
+	margin: auto;
+	text-align: left;
+	
+}
+
+figure img:last-child{
+	float: right;
+}
+
+#secondContent{
+	background: #AAAAAA; /**grey*/
+}
+#secondContent header{
+	text-align: center;
+}
+
+#secondContent article{
+	max-width: 50%;
+	margin: auto;
+}
+
+#sportContent header{
+	text-align: center;
+}
+
+#sportContent article{
+	max-width: 60%;
+	margin: auto;
+}
+
+#sportContent figure img{
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding: 2px;
+}
+
+#referalContent{
+	text-align: center;
+	max-width: 50%;
+	margin: auto;
+} 
+
+
