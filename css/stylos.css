@@ -28,7 +28,7 @@ nav li {
 }
 
 #mainContent article {
-	max-width: 50%;
+	max-width: 60%;
 	margin: auto;
 	text-align: left;
 	
@@ -46,25 +46,87 @@ figure img:last-child{
 }
 
 #secondContent article{
-	max-width: 50%;
-	margin: auto;
-}
-
-#sportContent header{
-	text-align: center;
-}
-
-#sportContent article{
 	max-width: 60%;
 	margin: auto;
 }
 
+
+
+#sportContent header{
+	text-align:center;
+}
+
+#sportContent{
+	max-width: 60%;
+	margin: auto;
+}
+
+#sportContent article img{
+	height:230px;
+}
+
+#sportContent article:first-child{
+	width: 30%;
+	float: left;
+}
+
+.articleSecondChild{
+	width:30%;
+	float: left;
+}
+
+.articleThirdChild{
+	width: 30%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+#sportContent header{
+	text-align: center;
+}
+#sportContent {
+	max-width: 60%;
+	margin: auto;
+	
+}
+.sportImages{
+	margin: 0 -16px;
+	padding-top: 32px;
+	padding-bottom:32px;
+	max-width: 25%;
+	
+	border: 2px solid black;
+	
+}
+#sportContent article{
+	
+	width: 100%;
+	margin: auto;
+} 
 #sportContent figure img{
 	float: left;
-	height: 200px;
-	width: 200px;
-	padding: 2px;
-}
+	height: 100px;
+	width: 100%;
+	padding: 12px;
+	
+} 
+
+*/
 
 #referalContent{
 	text-align: center;
