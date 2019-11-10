@@ -1,137 +1,155 @@
+@font-face
+{
+	font-family:"googleFonts";
+	src:url("fonts/OpenSans-Regular.ttf");
+	src:url("fonts/Raleway-Regular.ttf");
+	src:url("fonts/Roboto-Regular.ttf");
+}
+
+
 .bovensteHeader{
-	padding: 80px;
-	text-align: center;
-	background: lightblue;
-	color: white;
+     padding: 80px;
+     text-align: center;
+     background: lightblue;
+     color: white;
 }
 
-nav{
-	overflow:hidden;
-	background-color: #333;
+ nav{
+     overflow:hidden;
+     background-color: #333;
+}
+ nav li a{
+     padding: 21px 0px;
+     text-decoration: none;
+     color: white;
+}
+ nav li {
+     float: left;
+     margin: 20px;
+     list-style-type: none;
+}
+ #mainContent header{
+     text-align: center;
+}
+ #mainContent article {
+     max-width: 60%;
+     margin: auto;
+     text-align: left;
+}
+ figure img:last-child{
+     float: right;
+}
+ #secondContent{
+     background: #AAAAAA;
+    /**grey*/
+}
+ #secondContent header{
+     text-align: center;
+}
+ #secondContent article{
+     max-width: 60%;
+     margin: auto;
+}
+ #sportContent header{
+     text-align:center;
+}
+ #sportContent{
+     max-width: 60%;
+     margin: auto;
+}
+ #sportContent article img{
+     height:150px;
+	 width:100%;	
 }
 
+#sportContent article img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ #sportContent article:first-child{ /* eerste article */
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
 
-nav li a{
-	padding: 21px 0px;
-	text-decoration: none;
-	color: white;
+}
+ .articleSecondChild{
+	 border: 1px solid;
+     width:30%;
+	 height: 320px;
+     float: left;
+}
+ .articleThirdChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleFourthChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleFifthChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleSixthChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleSeventhChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleEightChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleNinethChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
+}
+ .articleTenthChild{
+	 border: 1px solid;
+     width: 30%;
+	 height: 320px;
+     float: left;
 }
 
-nav li {
-	float: left;
-	margin: 20px;
-	list-style-type: none;
+#sportContent footer{
+	border: 1px solid black;
+	float:left;
+	width:100%;
 }
-
-#mainContent header{
-	text-align: center;
+ 
+#referralContent img{
+	width:100%;
+	height:100%;
 }
-
-#mainContent article {
-	max-width: 60%;
-	margin: auto;
-	text-align: left;
+#referralContent{
+	
+	position:absolute;
+	height:100%;
+	right: 0px;
+	width:20%;
+}
+aside header{
 	
 }
 
-figure img:last-child{
-	float: right;
-}
-
-#secondContent{
-	background: #AAAAAA; /**grey*/
-}
-#secondContent header{
-	text-align: center;
-}
-
-#secondContent article{
-	max-width: 60%;
-	margin: auto;
-}
 
 
 
-#sportContent header{
-	text-align:center;
-}
-
-#sportContent{
-	max-width: 60%;
-	margin: auto;
-}
-
-#sportContent article img{
-	height:230px;
-}
-
-#sportContent article:first-child{
-	width: 30%;
-	float: left;
-}
-
-.articleSecondChild{
-	width:30%;
-	float: left;
-}
-
-.articleThirdChild{
-	width: 30%;
-	float: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
-#sportContent header{
-	text-align: center;
-}
-#sportContent {
-	max-width: 60%;
-	margin: auto;
-	
-}
-.sportImages{
-	margin: 0 -16px;
-	padding-top: 32px;
-	padding-bottom:32px;
-	max-width: 25%;
-	
-	border: 2px solid black;
-	
-}
-#sportContent article{
-	
-	width: 100%;
-	margin: auto;
-} 
-#sportContent figure img{
-	float: left;
-	height: 100px;
-	width: 100%;
-	padding: 12px;
-	
-} 
-
-*/
-
-#referalContent{
-	text-align: center;
-	max-width: 50%;
-	margin: auto;
-} 
 
 
