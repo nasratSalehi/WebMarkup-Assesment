@@ -1,62 +1,80 @@
-/**
-black: #000000
-donkergrijs: #444444
-minder donker grijs: #707070
-lightgrijs: #AAAAAA
-noglichtergrijs: F5F5F5
-wit: FFFFFF
-blauw: 2699FB
- */
-
-@font-face
-{
-	font-family:"opensans";
-	src:url("fonts/OpenSans-Regular.ttf") format:("truetype");
+/** black: #000000 donkergrijs: #444444 minder donker grijs: #707070 lightgrijs: #AAAAAA noglichtergrijs: #F5F5F5 wit: #FFFFFF blauw: #2699FB */
+ @font-face {
+     font-family:"opensans";
+     src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
-
-@font-face
-{
-	font-family:"raleway";
-	src:url("fonts/Raleway-Bold.ttf") format:("truetype");
+ @font-face {
+     font-family:"raleway";
+     src: url("../fonts/Raleway-Regular.ttf") format("truetype");
 }
-
-@font-face
-{
-	font-family:"roboto";
-	src:url("fonts/Roboto-Regular.ttf") format:("truetype ");
+ @font-face {
+     font-family:"roboto";
+     src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
-
-
-.bovensteHeader{
+ .video{
+     width: 100%;
+     align-content: center;
+     position: fixed;
+     top: 0;
+     right:0;
+     left:0;
+     bottom:0;
+     overflow:hidden;
+     z-index: -1;
+}
+ footer{
+     color: #FFFFFF;
+     text-align:center;
+     font-family: "opensans", Arial, Verdana, "Berlin Sans FB";
+     font-size: 10px;
+}
+ .bovensteHeader{
      padding: 80px;
      text-align: center;
      background: #444444;
      color: white;
 }
-bovensteHeader h1{
-	font-family: "roboto", "Berlin Sans FB", "Arial";
+ .bovensteHeader h1{
+     font-family: "roboto", Arial, Verdana, "Berlin Sans FB";
+     font-size: 40px ;
 }
-
+ .bovensteHeader h2{
+     font-family: "roboto";
+}
  nav{
      overflow:hidden;
      background-color: #000000;
 }
  nav li a{
+     font-family: "roboto", Arial, Verdana, "Berlin Sans FB";
      padding: 21px 55px;
      text-decoration: none;
      color: white;
 }
-nav li a:hover{
-	background-color:#444444;
-	
+ nav li a:hover{
+     background-color:#2699FB;
 }
  nav li {
      float: left;
      margin: 20px;
      list-style-type: none;
 }
+ #mainContent{
+    /* background-color: #FFFFFF;
+     */
+}
  #mainContent header{
      text-align: center;
+}
+ #mainContent header h2{
+     color: #FFFFFF;
+     font-family: "raleway", Arial, Verdana, "Berlin Sans FB";
+     font-size: 25px;
+}
+ #mainContent p{
+     color: #FFFFFF;
+     font-family: "opensans", Arial, Verdana, "Berlin Sans FB";
+     font-size: 16px;
 }
  #mainContent article {
      max-width: 60%;
@@ -67,11 +85,22 @@ nav li a:hover{
      float: right;
 }
  #secondContent{
-     background: #AAAAAA;
-    /**grey*/
+    /* background: #F5F5F5;
+     */
+    /**heel licht grijs*/
+}
+ #secondContent p{
+     color: #FFFFFF;
+     font-family: "opensans", Arial, Verdana, "Berlin Sans FB";
+     font-size: 16px;
 }
  #secondContent header{
      text-align: center;
+}
+ #secondContent header h2{
+     color: #FFFFFF;
+     font-family: "raleway", Arial, Verdana, "Berlin Sans FB";
+     font-size: 25px;
 }
  #secondContent article{
      max-width: 60%;
@@ -80,103 +109,166 @@ nav li a:hover{
  #sportContent header{
      text-align:center;
 }
+ #sportContent header h2{
+     color: #FFFFFF;
+     font-family: "raleway", Arial, Verdana, "Berlin Sans FB";
+     font-size: 25px;
+}
  #sportContent{
      max-width: 60%;
      margin: auto;
 }
  #sportContent article img{
      height:150px;
-	 width:100%;	
+     width:100%;
 }
-
-#sportContent article img:hover{
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+ #sportContent article{
+     margin: 0 5px 2px 0;
+    /* background-color: #AAAAAA;
+     */
 }
- #sportContent article:first-child{ /* eerste article */
-	 border: 1px solid;
+ #sportContent article img:hover{
+     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ #sportContent article:first-child{
+    /* eerste article */
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
-
+}
+ #sportContent p{
+     color: #FFFFFF;
+     font-family: "opensans", Arial, Verdana, "Berlin Sans FB";
+     font-size: 11px;
+     font-style: italic;
+     margin: 1px 3px 1px 3px;
 }
  .articleSecondChild{
-	 border: 1px solid;
+     border: 1px solid;
      width:30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleThirdChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleFourthChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleFifthChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleSixthChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleSeventhChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleEightChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleNinethChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
  .articleTenthChild{
-	 border: 1px solid;
+     border: 1px solid;
      width: 30%;
-	 height: 320px;
+     height: 320px;
      float: left;
 }
-
-#sportContent footer{
-	border: 1px solid black;
-	float:left;
-	width:100%;
+ #sportContent footer{
+     float:left;
+     width:100%;
+     margin-top: 20px;
+     text-align: center;
+}
+ #referralContent header h2{
+     color: #FFFFFF;
+     font-family: "raleway", Arial, Verdana, "Berlin Sans FB";
+     font-size: 25px;
+}
+ #referralContent img{
+     width:100%;
+     height:100%;
+}
+ #referralContent img:hover{
+     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ #referralContent{
+     position:absolute;
+     top:1592px;
+     height:100%;
+     right: 0px;
+     width:20%;
+}
+ #contactContent{
+     letter-spacing: 2px;
+     max-width: 750px;
+     margin: 0 auto;
+     padding: 20px 0 40px;
+}
+ #contactContent legend{
+     color: #FFFFFF;
+     text-align: center;
+     font-family: "raleway", Arial, Verdana, "Berlin Sans FB";
+     font-size: 25px;
+     font-weight: bold;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ #contactContent fieldset{
+     border: 0;
+}
+ #contactContent form{
+     text-align: center;
+}
+ #contactContent fieldset button{
+     background-color: #AAAAAA;
+     color: #FFFFFF;
+     width: 50%;
+     float: left;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+}
+ #contactContent form input{
+     width:50%;
+     float:left;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+}
+ #contactContent form textarea{
+     width:100%;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+}
+ .laatsteFooter{
+     color: white;
+     padding: 8px 0px 8px 0px;
+     background-color: #000000;
 }
  
-#referralContent img{
-	width:100%;
-	height:100%;
-}
-#referralContent{
-	
-	position:absolute;
-	height:100%;
-	right: 0px;
-	width:20%;
-}
-aside header{
-	
-}
-
-
-
-
-
-
