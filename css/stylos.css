@@ -1,27 +1,54 @@
+/**
+black: #000000
+donkergrijs: #444444
+minder donker grijs: #707070
+lightgrijs: #AAAAAA
+noglichtergrijs: F5F5F5
+wit: FFFFFF
+blauw: 2699FB
+ */
+
 @font-face
 {
-	font-family:"googleFonts";
-	src:url("fonts/OpenSans-Regular.ttf");
-	src:url("fonts/Raleway-Regular.ttf");
-	src:url("fonts/Roboto-Regular.ttf");
+	font-family:"opensans";
+	src:url("fonts/OpenSans-Regular.ttf") format:("truetype");
+}
+
+@font-face
+{
+	font-family:"raleway";
+	src:url("fonts/Raleway-Bold.ttf") format:("truetype");
+}
+
+@font-face
+{
+	font-family:"roboto";
+	src:url("fonts/Roboto-Regular.ttf") format:("truetype ");
 }
 
 
 .bovensteHeader{
      padding: 80px;
      text-align: center;
-     background: lightblue;
+     background: #444444;
      color: white;
+}
+bovensteHeader h1{
+	font-family: "roboto", "Berlin Sans FB", "Arial";
 }
 
  nav{
      overflow:hidden;
-     background-color: #333;
+     background-color: #000000;
 }
  nav li a{
-     padding: 21px 0px;
+     padding: 21px 55px;
      text-decoration: none;
      color: white;
+}
+nav li a:hover{
+	background-color:#444444;
+	
 }
  nav li {
      float: left;
